@@ -1,0 +1,6 @@
+#!/bin/bash
+file="iacta"
+line_number=3
+
+line=$(sed -n "${line_number}p" "$file")
+echo "$line"
