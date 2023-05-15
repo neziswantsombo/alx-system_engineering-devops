@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x remove_c_script.sh
+tr -d "Cc"
